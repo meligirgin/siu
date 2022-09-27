@@ -2271,7 +2271,7 @@ a.btn-link{
 	font-size:120px;
 }
 .de_count span {
-	font-size: 12px;
+	font-size: 50px;
 	text-transform:uppercase;
 }
 .de_count i {
@@ -9698,7 +9698,15 @@ a, img {
 .rtl-content{
 	text-align:right;
 }
-
+.custom-red{
+	color: #BA0E09 !important;
+}
+.feature-box-type-2 h4{
+	height: 45px;
+}
+.custom-red-bg{
+	background-color: #BA0E09;
+}
 /* ================================================== */
 
 
