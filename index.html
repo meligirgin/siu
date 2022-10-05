@@ -26,10 +26,12 @@
 	<link href="css/jquery.countdown.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/custom-header.css" rel="stylesheet" type="text/css">
+    <link href="css/custom-carousel.css" rel="stylesheet" type="text/css">
     <!-- color scheme -->
     <link id="colors" href="css/colors/scheme-03.css" rel="stylesheet" type="text/css">
 	<link href="css/coloring.css" rel="stylesheet" type="text/css">
-
+    <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +46,9 @@
                                 <div class="align-self-center header-col-left">
                                     <!-- logo begin -->
                                     <div id="logo">
-                                        <a href="index.html">SIU
+                                        <a href="index.html">
+											<img alt="" class="logo" src="images/arı.png" style="height:60px"/>
+                                            <img alt="" class="logo-2" src="images/arı.png" style="height:60px"/>
 										</a>
                                     </div>
                                     <!-- logo close -->
@@ -117,18 +121,11 @@
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
 			
-			<section class="full-height text-light relative no-top no-bottom vertical-center" data-bgimage="url(images/background/mustafa-inan-kutuphanesi.png) top" data-stellar-background-ratio=".5">
+			<section class="full-height text-light relative no-top no-bottom vertical-center" data-bgimage="url(images/banner.gif) top" data-stellar-background-ratio=".5">
                 <div class="overlay-gradient t50">
 					<div class="center-y relative">
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-6  offset-lg-3 col-md-12 offset-md-0 text-center">
-									<h1 class="wow fadeInUp" data-wow-delay=".5s"></br> <span class="id-color-3 custom-red">SIU 2023</span><br></h1>
-									<p class="lead wow fadeInUp" data-wow-delay=".75s">31. IEEE Sinyal İşleme ve İletişim Uygulamaları Kurultayı</p>
-                                    <p>17-20 Mayıs 2023, İstanbul, Türkiye</p>
-                                    <p>İstanbul Teknik Üniversitesi</p>
-									<div class="spacer-20"></div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -157,12 +154,11 @@
                             </p>
 						</div>
 						<div class="col-md-12 text-center mt-5">
-							<h2 class="custom-red">Önemli Tarihler</h2>
-                            <h3>Konferans Tarihi: 17-20 Mayıs 2023</h3>
+							<h2 class="custom-red mb-5">Önemli Tarihler</h2>
 						</div>						
 							
 						<div class="col-lg-4 col-md-6">
-							<div class="feature-box-type-2  text-light  mb30" data-bgcolor="#394868">
+							<div class="feature-box-type-2  text-light  mb30" data-bgcolor="#6d0071">
 								<i class="fa fa-comment text-light"></i>
 								<h4>Özel Oturum ve Çalıştay Daveti Son Başvuru Tarihi</h4>
                                 <p>15 Şubat 2023</p>
@@ -170,7 +166,7 @@
 						</div>
 
 						<div class="col-lg-4 col-md-6">
-							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#394868">
+							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#520058">
 								<i class="fa fa-envelope text-light"></i>
 								<h4>Bildiri Gönderme Tarihi</h4>
                                 <p>25 Şubat 2023</p>
@@ -178,7 +174,7 @@
 						</div>
 
 						<div class="col-lg-4 col-md-6">
-							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#394868">
+							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#390040">
 								<i class="fa fa-copy text-light"></i>
 								<h4>Sonuçların Açıklanması</h4>
                                 <p>17 Nisan 2023</p>
@@ -186,17 +182,24 @@
 						</div>
 
 						<div class="col-lg-4 col-md-6">
-							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#394868">
+							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#520058">
 								<i class="fa fa-file text-light"></i>
 								<h4>Baskıya Hazır Son Gönderim Tarihi</h4>
                                 <p>24 Nisan 2023</p>
 							</div>
 						</div>
                         <div class="col-lg-4 col-md-6">
-							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#394868">
+							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#390040">
 								<i class="fa fa-address-card text-light"></i>
 								<h4>Erken Kayıt Son Tarih</h4>
                                 <p>24 Nisan 2023</p>
+							</div>
+						</div>
+                        <div class="col-lg-4 col-md-6">
+							<div class="feature-box-type-2 text-light mb30"  data-bgcolor="#6d0071">
+								<i class="fa fa-users text-light"></i>
+								<h4>Konferans Tarihi</h4>
+                                <p>17-20 Mayıs 2023</p>
 							</div>
 						</div>
 				</div>
@@ -241,23 +244,33 @@
 
                 </div>
             </section>
-            <section id="section-features" class="no-top">
-				<div class="spacer-double"></div>
-				<div class="container">
-					<div class="padding40 round" data-bgcolor="#f5f5f5">
-						<div class="row align-items-center">
-						<div class="col-12">
-							<div id="owl-logo" class="logo-carousel owl-carousel owl-theme">
-								<img src="images/misc/cartoon.png" class="img-fluid" alt="">
-								<img src="images/misc/cartoon.png" class="img-fluid" alt="">
-                                <img src="images/misc/cartoon.png" class="img-fluid" alt="">
-                                <img src="images/misc/cartoon.png" class="img-fluid" alt="">
-                                <img src="images/misc/cartoon.png" class="img-fluid" alt="">
-                                <img src="images/misc/cartoon.png" class="img-fluid" alt="">
-                                <img src="images/misc/cartoon.png" class="img-fluid" alt="">
-							</div>
-						</div>
-				</div>
+            <section class="custom-carousel"> 
+                <div class="owl-carousel owl-theme owl-custom owl-carousel-rtl" >
+                    <div class="item"><img src="images/cartoon-tr/1.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/2.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/3.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/4.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/5.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/6.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/7.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/8.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/9.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-tr/10.png" alt=""></div>
+                </div>
+            </section>
+            <section class="custom-carousel">
+                <div class="owl-carousel owl-theme owl-custom owl-carousel-ltr" >
+                    <div class="item"><img src="images/cartoon-eng/1.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/2.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/3.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/4.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/5.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/6.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/7.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/8.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/9.png" alt=""></div>
+                    <div class="item"><img src="images/cartoon-eng/10.png" alt=""></div>
+                </div>
             </section>
             </div>
             <!-- content close -->
@@ -348,7 +361,8 @@
         <script src="js/designesia.js"></script>
         <script src="js/custom-navbar.js"></script>
         <script src="js/countdown.js"></script>
-		
+        <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+        <script src="js/custom.carousel.js"></script>
 </body>
 
 </html>

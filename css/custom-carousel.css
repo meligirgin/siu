@@ -1,0 +1,12 @@
+.owl-item {
+    width: auto;
+}
+
+.owl-custom img{
+    width: auto !important;
+    height: 200px !important;
+}
+
+.custom-carousel{
+    padding: 50px 100px;
+}

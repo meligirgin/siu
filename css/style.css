@@ -484,14 +484,13 @@ header .header-col.mid .social-icons{
 }
 #mainmenu .subitem{
     background-color: transparent !important;
-    color:#003366 !important;
+    color:#8A008B !important;
     margin-left: 5px;
     font-size: 12px;
 }
 #mainmenu .subitem:hover{
-    background-color: transparent !important;
-    text-decoration: underline;
-    color: #336699 !important;
+    background-color: #ab46ec !important;
+    color: #fff !important;
 }
 .de-navbar-left.de_light #subheader h1 {
 	color: #222;
@@ -543,7 +542,7 @@ header .header-col.mid .social-icons{
 	padding:30px 18px;
 	padding-top:29px;
 	text-decoration: none;
-	color: #fff;
+	color: #8A008B;
 	text-align: center;
 	outline: none;
 	border-radius:5px;
@@ -820,7 +819,7 @@ section.no-bg, #content.no-bg{
 /* ================================================== */
 
 footer {
-	background: #071C26;
+	background: #000113;
 	color:#ffffff;
 	padding: 80px 0 40px 0;
 }
@@ -9699,13 +9698,13 @@ a, img {
 	text-align:right;
 }
 .custom-red{
-	color: #BA0E09 !important;
+	color: #8A008B !important;
 }
 .feature-box-type-2 h4{
 	height: 45px;
 }
 .custom-red-bg{
-	background-color: #BA0E09;
+	background-color: #390040;
 }
 /* ================================================== */
 
