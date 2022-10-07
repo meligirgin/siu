@@ -9,9 +9,9 @@
     let today = new Date(),
         dd = String(today.getDate()).padStart(2, "0"),
         mm = String(today.getMonth() + 1).padStart(2, "0"),
-        yyyy = today.getFullYear(),
+        yyyy = today.getFullYear()+1,
         nextYear = yyyy + 1,
-        dayMonth = "10/12/",
+        dayMonth = "5/17/",
         birthday = dayMonth + yyyy;
     
     today = mm + "/" + dd + "/" + yyyy;

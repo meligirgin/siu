@@ -4,7 +4,7 @@ var cartoonSlider = function(){
     if(width>1500){
         var owl = $('.owl-carousel-rtl');
         owl.owlCarousel({
-            items:7,
+            items:6,
             loop:true,
             margin:10,
             autoplay:true,
@@ -14,7 +14,7 @@ var cartoonSlider = function(){
         });
         var owl = $('.owl-carousel-ltr');
         owl.owlCarousel({
-            items:7,
+            items:6,
             loop:true,
             margin:10,
             autoplay:true,
@@ -94,8 +94,8 @@ window.addEventListener('resize', function(event) {
 }, true);
 // gallery click function
 $( ".owl-carousel-rtl" ).click(function() {
-    location.href = "gallery.html";
+    location.href = "galeri-turkce.html";
 });
 $( ".owl-carousel-ltr" ).click(function() {
-    location.href = "gallery.html";
+    location.href = "galeri-ingilizce.html";
 });
