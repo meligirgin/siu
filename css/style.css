@@ -9707,7 +9707,14 @@ a, img {
 	height: 45px;
 }
 .custom-red-bg{
-	background-color: #390040;
+	background-color: #8A008B;
+}
+.banner-short-title{
+	color: white;
+	text-shadow: 2px 2px #390040;
+}
+.no-bullet-list li{
+	list-style-type: none; 
 }
 /* ================================================== */
 

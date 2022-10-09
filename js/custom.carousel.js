@@ -94,8 +94,8 @@ window.addEventListener('resize', function(event) {
 }, true);
 // gallery click function
 $( ".owl-carousel-rtl" ).click(function() {
-    location.href = "galeri-turkce.html";
+    location.href = "galeri-ingilizce.html";
 });
 $( ".owl-carousel-ltr" ).click(function() {
-    location.href = "galeri-ingilizce.html";
+    location.href = "galeri-turkce.html";
 });
