@@ -1,4 +1,5 @@
 //index page caraousel
+/*
 var cartoonSlider = function(){  
     let width = screen.width;
     if(width>1500){
@@ -92,10 +93,11 @@ cartoonSlider();
 window.addEventListener('resize', function(event) {
     cartoonSlider();
 }, true);
+*/
 // gallery click function
-$( ".owl-carousel-rtl" ).click(function() {
+$( "#walker-ltr" ).click(function() {
     location.href = "galeri-ingilizce.html";
 });
-$( ".owl-carousel-ltr" ).click(function() {
+$( "#walker-rtl" ).click(function() {
     location.href = "galeri-turkce.html";
 });

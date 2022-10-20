@@ -10,3 +10,35 @@
 .custom-carousel{
     padding: 50px 100px;
 }
+
+#walker-ltr {
+    bottom: 15%;
+    position: relative;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: walkLtr;
+    -webkit-animation-duration: 10s;
+  }
+  @-webkit-keyframes walkLtr {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  #walker-rtl {
+    top: 100%;
+    position: relative;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: walkRtl;
+    -webkit-animation-duration: 10s;
+  }
+  @-webkit-keyframes walkRtl {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
