@@ -12,11 +12,12 @@
 }
 
 #walker-ltr {
+  cursor: pointer;
     bottom: 15%;
     position: relative;
     -webkit-animation: linear infinite;
     -webkit-animation-name: walkLtr;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration:15s;
   }
   @-webkit-keyframes walkLtr {
     0% {
@@ -28,11 +29,12 @@
   }
 
   #walker-rtl {
+    cursor: pointer;
     top: 100%;
     position: relative;
     -webkit-animation: linear infinite;
     -webkit-animation-name: walkRtl;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 15s;
   }
   @-webkit-keyframes walkRtl {
     0% {
