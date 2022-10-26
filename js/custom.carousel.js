@@ -101,3 +101,6 @@ $( "#walker-ltr" ).click(function() {
 $( "#walker-rtl" ).click(function() {
     location.href = "galeri-turkce.html";
 });
+$('.carousel').carousel({
+    interval: 2000
+  })
